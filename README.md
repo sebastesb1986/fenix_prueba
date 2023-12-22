@@ -1,7 +1,7 @@
 Dashboar de usuarios con rol de administrador y usuario estandar.
 
 1. Lenguaje y framework: PHP 8.2; Laravel 10.10
-2. Lengauje complementario para intefaz(frontn-end); Javascript
+2. Lengauje complementario para intefaz(front-end); Javascript
 3. Base de datos: Mysql (Se adjunta script de.sql para ser importado bien sea por mysql workbench o mariaDb Xampp)
 
 4. Instalación:
@@ -28,9 +28,9 @@ DB_PASSWORD=admin123 (o el password que tenga tu entorno de base de datos mysql)
 
 8. Opcional: 
 
-A. Digitamos en consola: php artisan migrate y desde nuestras migraciones se migraran las tablas de datos
-A.1. una vez completa el paso A, digitamos: php artisan migrate:refresh --seed con el fin de agregar el usuario administrador a nuestra aplicación
-B. Importamos el .sql de la carpeta mysql_DB que contiene un script llamado phoenixusers.sql(aqui ya s eencuentran datos de usuariosregistrados)
+A. Digitamos en consola: php artisan migrate y desde nuestras migraciones se migraran las tablas de datos.
+A.1. una vez completa el paso A, digitamos: php artisan migrate:refresh --seed con el fin de agregar el usuario administrador a nuestra aplicación.
+B. Importamos el .sql de la carpeta mysql_DB que contiene un script llamado phoenixusers.sql(aqui ya s eencuentran datos de usuarios registrados).
 
 9. Una vez importado todo sin dificultad, procedemos a digitar en consola: php artisan serve
 
@@ -38,7 +38,7 @@ B. Importamos el .sql de la carpeta mysql_DB que contiene un script llamado phoe
 
 10. Una vez ubicados en login si se siguieron los pasos anteriores podriamos inicar sesión con los usuarios:
 
-admin2023@gmail.com(administrador); usuario2023@gmail.com y el password para ambos default es 12345678
+admin2023@gmail.com(administrador); usuario2023@gmail.com(estandar) y el password para ambos default es 12345678
 
 Nota: Cada usuario tiene su vista de rol, a la izquierda, es posible desplegar un panel para adminstrar usuarios(Rol administrador)
 y para el caso de un usuario estandar, administrara solo su perfil.
