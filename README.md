@@ -1,4 +1,4 @@
-Dashboar de usuarios con rol de administrador y usuario que no lo es.
+Dashboar de usuarios con rol de administrador y usuario estandar.
 
 1. Lenguaje y framework: PHP 8.2; Laravel 10.10
 2. Lengauje complementario para intefaz(frontn-end); Javascript
