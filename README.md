@@ -49,6 +49,6 @@ Para un usuario estandar que intente eliminar un usuario, se le enseñara la ale
 
 Para el caso de un usuario administrador, le es posible realizar operaciones como administrar otros usuarios.
 
-Para cualquier inquietud, observación y/o sugerencia contactame via email: salgadosb1986@gmail.com
+Para cualquier inquietud, observación, si requeires ayuda contactame al correo electronico(tratare de contestarte lo mas pronto posible): salgadosb1986@gmail.com
 
 Espero sea de tu agrado y gran ayuda esta prueba y aplicación.
