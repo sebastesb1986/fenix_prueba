@@ -76,6 +76,7 @@ class UserController extends Controller
                 'username' => $request->username,
                 'email' => $request->email,
                 'password' => $request->password,
+                'admin' =>  $request->admin,
 
             ];
 
