@@ -38,9 +38,8 @@
             <h6 class="collapse-header">Opciones:</h6>
             @if(auth()->user()->admin == 1)
               <a class="collapse-item {{ request()->routeIs('user.index') ? 'active' : '' }}" href="{{ route('user.index') }}">Ver todos los usuarios</a>
-            @else
-              <a class="collapse-item {{ request()->routeIs('user.profile') ? 'active' : '' }}" href="{{ route('user.profile') }}">Mi perfil</a>
             @endif
+              <a class="collapse-item {{ request()->routeIs('user.profile') ? 'active' : '' }}" href="{{ route('user.profile') }}">Mi perfil</a>
           </div>
         </div>
       </li>
