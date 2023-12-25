@@ -153,12 +153,11 @@ class UserController extends Controller
             ];
 
             // Registramos el perfil del usuario
-            $hh = $user->profile()->update($profile);
+            $user->profile()->update($profile);
 
             // Valida si el usuario y el perfil han sido actualizados
             return response()->json([
-                'message' => 'Usuario actualizado exitosamente!',
-                'updatedData' => $user
+                'message' => 'Usuario actualizado exitosamente!'
             ], 201);
         }
   
