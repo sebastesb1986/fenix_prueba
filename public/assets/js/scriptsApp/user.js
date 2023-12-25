@@ -129,6 +129,7 @@ function registerUsr()
         username: $('#username').val(),
         email: $('#email').val(),
         password: $('#password').val(),
+        admin: $(".field:checked").val(),
         name: $('#name').val(),
         lastname: $('#lastname').val(),
         address: $('#address').val(),
