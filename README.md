@@ -14,6 +14,8 @@ git clone https://github.com/sebastesb1986/fenix_prueba.git
 
 composer install
 
+php artisan key:generate
+
 7. Una vez instaladas y configuradas las dependencias para el framework de PHP Laravel, nos dirigimos al archivo .env.example y lo renombramos
 a:  .env
 
